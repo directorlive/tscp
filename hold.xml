@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say voice="woman">Your call has been put to hold!</Say>
+	<Say voice="woman">Please Wait for some time!</Say>
+	<Play loop='0'>http://satnyx.in/tscp/hold.mp3</Play>
+</Response>

@@ -1,0 +1,209 @@
+body{
+	background:#d9eaed url(../images/bg_mix.jpg) repeat-x top;
+	color: #202020;
+}
+a, a:visited{
+	color:#294145;
+	text-decoration:underline;
+}
+input{
+	border:1px solid #c3d7db;
+}
+select{
+	border:1px solid #c3d7db;
+}
+#header h2{
+	color:#FFF;
+}
+#content{
+	background:#FFF;
+	min-height:525px;
+}
+#sidebar{
+	background:#FFF;
+	min-height:525px;
+}
+#sidebar h3{
+	background:#d9eaed;
+	border-bottom:1px solid #c3d7db;
+}
+#topmenu a,#topmenu a:visited{
+	color:#FFF;
+	background-color:#5d99a3;
+}
+#topmenu a:hover{
+	background-color:#66D6E9;
+	color: #294145;
+}
+#topmenu .current>a, #topmenu .current>a:hover, #topmenu .current>a:visited{
+	color:#294145;
+	background: #FFF url(../images/bg_menu_mix.jpg) repeat-x top;
+	border-left: #FFF 1px solid;
+	border-right: #FFF 1px solid;
+}
+#top-panel{
+	background:#FFF;
+}
+table{
+	background:none;
+}
+td, th{
+	border:1px solid #c3d7db;
+} 
+thead{
+	background:#d9eaed;
+}
+#styleswitcher{
+	background:#FFFFFF;
+}
+#footer{
+	background:#FFF;
+}
+#box{
+	padding-bottom:30px;
+	border:1px solid #c3d7db;
+}
+#box h3{
+	background:#d9eaed;
+	border-bottom:1px solid #c3d7db;
+	color:#294145;
+}
+/***************
+	  Forms
+***************/
+form#form fieldset {
+	border:1px solid #c3d7db;
+}
+form#form legend {
+	border:1px solid #c3d7db;
+	background:#fff url(../images/form_mix.gif) repeat-x center left;
+	color:#294145;
+}
+form#form input {
+	border:1px solid #c3d7db;
+	background:#fff url(../images/form_mix.gif) repeat-x top left;
+}
+form#form textarea {
+	border:1px solid #c3d7db;
+	background:#fff url(../images/form_mix.gif) repeat-x bottom left;
+}
+form#form option {
+	background:#FFF;
+}
+form#form optgroup {
+	background:#c3d7db;
+}
+form#form optgroup option {
+
+}
+form#form #button1, form#form #button2 {
+	color:#294145;
+}
+form#form #button1:hover, form#form #button2:hover {
+	color:#000;
+}
+/***************
+	Home
+***************/
+#infobox{
+	border:1px solid #c3d7db;
+}
+#infobox h3{
+	background:#d9eaed;
+	border-bottom:1px solid #c3d7db;
+	color:#294145;
+}
+#rightnow {
+	border:1px solid #c3d7db;
+}
+#rightnow .reallynow {
+	background:#d9eaed;
+	color:#294145;
+}
+#rightnow h3{
+	background:#d9eaed;
+	border-bottom:1px solid #c3d7db;
+}
+
+
+#dialpad #button1{background:url(../images/phone/num_1.png) -8px -8px;}
+#dialpad #button2{background:url(../images/phone/num_2.png) -8px -8px;}
+#dialpad #button3{background:url(../images/phone/num_3.png) -8px -8px;}
+#dialpad #button4{background:url(../images/phone/num_4.png) -8px -8px;}
+#dialpad #button5{background:url(../images/phone/num_5.png) -8px -8px;}
+#dialpad #button6{background:url(../images/phone/num_6.png) -8px -8px;}
+#dialpad #button7{background:url(../images/phone/num_7.png) -8px -8px;}
+#dialpad #button8{background:url(../images/phone/num_8.png) -8px -8px;}
+#dialpad #button9{background:url(../images/phone/num_9.png) -8px -8px;}
+#dialpad #button0{background:url(../images/phone/num_0.png) -8px -8px;}
+
+#dialpad #buttonstar{background:url(../images/phone/star.png) -8px -8px;}
+#dialpad #buttonhash{background:url(../images/phone/hash.png) -8px -8px;}
+
+#incoming_call_alert .buttonpick,#dialpad #buttondial{background:url(../images/phone/dial.png) -8px -8px;}
+#incoming_call_alert .buttonrejectincoming,#dialpad #buttonreject{background:url(../images/phone/reject.png) -8px -8px;}
+#dialpad #buttonmute{background:url(../images/phone/mute.png) 0px -4px no-repeat;}
+#dialpad #buttonunmute{background:url(../images/phone/unmute.png) -8px -8px;}
+#dialpad #buttonplus{background:url(../images/phone/plus.png) -8px -8px;}
+
+#dialpad #button1:hover{background:url(../images/phone/num_1_hover.png) -8px -8px;}
+#dialpad #button2:hover{background:url(../images/phone/num_2_hover.png) -8px -8px;}
+#dialpad #button3:hover{background:url(../images/phone/num_3_hover.png) -8px -8px;}
+#dialpad #button4:hover{background:url(../images/phone/num_4_hover.png) -8px -8px;}
+#dialpad #button5:hover{background:url(../images/phone/num_5_hover.png) -8px -8px;}
+#dialpad #button6:hover{background:url(../images/phone/num_6_hover.png) -8px -8px;}
+#dialpad #button7:hover{background:url(../images/phone/num_7_hover.png) -8px -8px;}
+#dialpad #button8:hover{background:url(../images/phone/num_8_hover.png) -8px -8px;}
+#dialpad #button9:hover{background:url(../images/phone/num_9_hover.png) -8px -8px;}
+#dialpad #button0:hover{background:url(../images/phone/num_0_hover.png) -8px -8px;}
+
+#dialpad #buttonstar:hover{background:url(../images/phone/star_hover.png) -8px -8px;}
+#dialpad #buttonhash:hover{background:url(../images/phone/hash_hover.png) -8px -8px;}
+#dialpad #buttonmute:hover{background:url(../images/phone/mute_hover.png) -8px -3px;}
+#dialpad #buttonunmute:hover{background:url(../images/phone/unmute_hover.png) -8px -8px;}
+#dialpad #buttonplus:hover{background:url(../images/phone/plus_hover.png) -8px -8px;}
+
+#incoming_call_alert .buttonpick:hover,#dialpad #buttondial:hover{background:url(../images/phone/dial_hover.png) -8px -8px;}
+#incoming_call_alert .buttonrejectincoming:hover,#dialpad #buttonreject:hover{background:url(../images/phone/reject_hover.png) -8px -8px;}
+
+#incoming_call_alert .buttonpick,#incoming_call_alert .buttonrejectincoming,#dialpad #button1,#dialpad #button2,#dialpad #button3,#dialpad #button4,#dialpad #button5,#dialpad #button6,#dialpad #button7,#dialpad #button8,#dialpad #button9,#dialpad #button0,#dialpad #buttonstar,#dialpad #buttonhash,#dialpad #buttondial,#dialpad #buttonreject,#dialpad #buttonunmute,#dialpad #buttonplus{
+	background-size:35px 35px;
+	background-repeat:no-repeat;
+	background-position:-5px -5px;
+}
+#incoming_call_alert .buttonpick:hover,#incoming_call_alert .buttonrejectincoming:hover,#dialpad #button1:hover,#dialpad #button2:hover,#dialpad #button3:hover,#dialpad #button4:hover,#dialpad #button5:hover,#dialpad #button6:hover,#dialpad #button7:hover,#dialpad #button8:hover,#dialpad #button9:hover,#dialpad #button0:hover,#dialpad #buttonstar:hover,#dialpad #buttonhash:hover,#dialpad #buttondial:hover,#dialpad #buttonreject:hover,#dialpad #buttonmute:hover,#dialpad #buttonunmute:hover,#dialpad #buttonplus:hover{
+	background-size:35px 35px;
+	background-repeat:no-repeat;
+	background-position:-5px -5px;
+}
+#dialpad #buttonmute{
+	background-size:26px 26px;
+	background-repeat:no-repeat;
+}
+#incoming_call_alert{
+	height:25px;
+	padding:10px;
+	font-weight: bold;
+	color: green;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0,0.3);
+	font-size: 16px;
+	display:none;
+}
+#incoming_call_alert .message,#incoming_call_alert .phone_number{
+	z-index:10;
+	position:relative;
+}
+#incoming_call_alert .blinking{
+	background-color: #9C3;
+	box-shadow: inset 0px 0px 20px whitesmoke;
+	width: 738px;
+	border: 2px dotted darkgreen;
+	height: 44px;
+	position: relative;
+	top: -41px;
+	left: -12px;
+}
+/*
+#FFB649
+#F0B5F0
+ */

@@ -1,0 +1,1 @@
+Unable to find the socket transport "https" - did you forget to enable it when you configured PHP? (-1177239688)
