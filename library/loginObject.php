@@ -21,7 +21,7 @@ function checkLogin($user,$pass)
 	else return false;
 }
 
-function setUserDetails($user,$pass)
+function setUserDetails($user)
 {
 	$user = addslashes($user);
 	$pass = addslashes($pass);
